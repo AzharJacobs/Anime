@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Truck, Shield, Heart } from 'lucide-react';
 import { mangaData } from '../data/mangaData';
 import MangaCard from '../components/MangaCard';
+import logoanime from '../images/logoanime.png';
 
 const Home: React.FC = () => {
   const featuredManga = mangaData.filter(manga => manga.featured);
@@ -47,7 +48,7 @@ const Home: React.FC = () => {
             </div>
             <div className="hidden lg:block">
               <img 
-                src="https://images.pexels.com/photos/7188010/pexels-photo-7188010.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src={logoanime} 
                 alt="Manga Collection" 
                 className="rounded-lg shadow-2xl border-4 border-white border-opacity-30"
               />

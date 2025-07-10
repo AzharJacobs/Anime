@@ -1,4 +1,12 @@
 import { Manga } from '../types';
+import attack from '../images/attack.jpg';
+import myhero from '../images/myhero.jpg';
+import onepiece from '../images/onepiece.jpg';
+import naruto from '../images/naruto.jpg';
+import dragonball from '../images/dragonball.jpg';
+import deathnote from '../images/death note.jpg';
+import demonslayer from '../images/deamon slayer.png';
+import ghoul from '../images/ghoul.jpg';
 
 export const mangaData: Manga[] = [
   {
@@ -7,7 +15,7 @@ export const mangaData: Manga[] = [
     author: 'Hajime Isayama',
     price: 12.99,
     originalPrice: 14.99,
-    image: 'https://images.pexels.com/photos/7188011/pexels-photo-7188011.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: attack,
     description: 'Humanity fights for survival against giant humanoid Titans.',
     genre: 'Action',
     volume: 1,
@@ -20,7 +28,7 @@ export const mangaData: Manga[] = [
     title: 'My Hero Academia',
     author: 'Kohei Horikoshi',
     price: 11.99,
-    image: 'https://images.pexels.com/photos/7188012/pexels-photo-7188012.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: myhero,
     description: 'A world where superpowers are the norm and heroes are celebrities.',
     genre: 'Adventure',
     volume: 1,
@@ -33,7 +41,7 @@ export const mangaData: Manga[] = [
     title: 'One Piece',
     author: 'Eiichiro Oda',
     price: 13.99,
-    image: 'https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: onepiece,
     description: 'Follow Monkey D. Luffy on his quest to become the Pirate King.',
     genre: 'Adventure',
     volume: 1,
@@ -47,7 +55,7 @@ export const mangaData: Manga[] = [
     author: 'Masashi Kishimoto',
     price: 10.99,
     originalPrice: 12.99,
-    image: 'https://images.pexels.com/photos/7188014/pexels-photo-7188014.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: naruto,
     description: 'The story of a young ninja with a sealed demon.',
     genre: 'Action',
     volume: 1,
@@ -59,7 +67,7 @@ export const mangaData: Manga[] = [
     title: 'Dragon Ball',
     author: 'Akira Toriyama',
     price: 11.99,
-    image: 'https://images.pexels.com/photos/7188015/pexels-photo-7188015.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: dragonball,
     description: 'The classic tale of Goku and his journey to become stronger.',
     genre: 'Action',
     volume: 1,
@@ -71,7 +79,7 @@ export const mangaData: Manga[] = [
     title: 'Death Note',
     author: 'Tsugumi Ohba',
     price: 12.99,
-    image: 'https://images.pexels.com/photos/7188016/pexels-photo-7188016.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: deathnote,
     description: 'A high school student discovers a supernatural notebook.',
     genre: 'Thriller',
     volume: 1,
@@ -83,7 +91,7 @@ export const mangaData: Manga[] = [
     title: 'Demon Slayer',
     author: 'Koyoharu Gotouge',
     price: 13.99,
-    image: 'https://images.pexels.com/photos/7188017/pexels-photo-7188017.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: demonslayer,
     description: 'A young boy becomes a demon slayer to save his sister.',
     genre: 'Action',
     volume: 1,
@@ -95,7 +103,7 @@ export const mangaData: Manga[] = [
     title: 'Tokyo Ghoul',
     author: 'Sui Ishida',
     price: 12.99,
-    image: 'https://images.pexels.com/photos/7188018/pexels-photo-7188018.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: ghoul,
     description: 'A dark fantasy about ghouls living in modern Tokyo.',
     genre: 'Horror',
     volume: 1,
